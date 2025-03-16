@@ -39,3 +39,4 @@ print(binary_search(my_list, item))
 
 # 128 sorted items would take maximum of log(2) 128 steps, i.e. 7 steps
 # doubling the list to 256, it would take max log(2) 256, i.e. 8 steps
+# BS runs in log time; O(log n). vs. simple search running in linear time O(n)
